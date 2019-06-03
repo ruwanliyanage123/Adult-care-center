@@ -1,0 +1,11 @@
+.background {
+  background-color: rgb(221, 224, 226);
+  height: 650px;
+  width: 1350px;
+  margin-top: -500px;
+}
+
+.row {
+  margin-top: 500px;
+  margin-left: 300px;
+}

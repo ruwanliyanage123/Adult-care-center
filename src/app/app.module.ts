@@ -16,6 +16,8 @@ import {
   WavesModule
 } from 'angular-bootstrap-md';
 
+import { MatCardModule } from '@angular/material/card';
+
 import { MatButtonModule } from '@angular/material';
 import { HomeComponent } from './home/home.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
@@ -40,7 +42,7 @@ import { AuthService } from './shared/services/auth.service';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-
+    MatCardModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFirestoreModule,
     AngularFireAuthModule,
