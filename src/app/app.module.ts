@@ -33,6 +33,7 @@ import { VesakComponent } from './components/events/annual/vesak/vesak.component
 import { TripComponent } from './components/events/annual/trip/trip.component';
 import { MeetupComponent } from './components/events/annual/meetup/meetup.component';
 import { BathComponent } from './components/events/daily/bath/bath.component';
+import { TreatComponent } from './components/events/daily/treat/treat.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { BathComponent } from './components/events/daily/bath/bath.component';
     VesakComponent,
     TripComponent,
     MeetupComponent,
-    BathComponent
+    BathComponent,
+    TreatComponent
   ],
   imports: [
     BrowserModule,
