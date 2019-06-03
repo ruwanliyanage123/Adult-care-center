@@ -23,9 +23,10 @@ import { HomeComponent } from './home/home.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { ForgotPasswordComponent } from './components/forgot-password/forgot-password.component';
+import { VerifyEmailComponent } from './components/verify-email/verify-email.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, SignInComponent, SignUpComponent, ForgotPasswordComponent],
+  declarations: [AppComponent, HomeComponent, SignInComponent, SignUpComponent, ForgotPasswordComponent, VerifyEmailComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
