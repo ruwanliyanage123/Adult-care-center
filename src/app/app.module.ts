@@ -27,6 +27,7 @@ import { VerifyEmailComponent } from './components/verify-email/verify-email.com
 
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { AuthService } from './shared/services/auth.service';
+import { MedicalComponent } from './components/events/annual/medical/medical.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { AuthService } from './shared/services/auth.service';
     SignUpComponent,
     ForgotPasswordComponent,
     VerifyEmailComponent,
-    DashboardComponent
+    DashboardComponent,
+    MedicalComponent
   ],
   imports: [
     BrowserModule,
