@@ -8,9 +8,9 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { LoginComponent } from './signup-login/login/login.component';
+
 import { AuthGuard } from './core/auth/auth.guard';
-import { UserSignInUpModule } from './signup-login/user-signin-up.module';
+
 import {
   ButtonsModule,
   CarouselModule,
@@ -20,7 +20,6 @@ import {
 
 import { MatButtonModule } from '@angular/material';
 import { HomeComponent } from './home/home.component';
-import { SignupComponent } from './signup-login/signup/signup.component';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
@@ -32,7 +31,7 @@ import { SignupComponent } from './signup-login/signup/signup.component';
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFirestoreModule,
     AngularFireAuthModule,
-    UserSignInUpModule,
+
     MDBBootstrapModule.forRoot(),
     CarouselModule,
     WavesModule,
