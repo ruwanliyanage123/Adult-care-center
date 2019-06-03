@@ -29,6 +29,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { AuthService } from './shared/services/auth.service';
 import { MedicalComponent } from './components/events/annual/medical/medical.component';
 import { ConcertComponent } from './components/events/annual/concert/concert.component';
+import { VesakComponent } from './components/events/annual/vesak/vesak.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { ConcertComponent } from './components/events/annual/concert/concert.com
     VerifyEmailComponent,
     DashboardComponent,
     MedicalComponent,
-    ConcertComponent
+    ConcertComponent,
+    VesakComponent
   ],
   imports: [
     BrowserModule,
