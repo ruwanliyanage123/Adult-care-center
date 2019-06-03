@@ -11,6 +11,10 @@ import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { MedicalComponent } from './components/events/annual/medical/medical.component';
+import { ConcertComponent } from './components/events/annual/concert/concert.component';
+import { VesakComponent } from './components/events/annual/vesak/vesak.component';
+import { TripComponent } from './components/events/annual/trip/trip.component';
+import { MeetupComponent } from './components/events/annual/meetup/meetup.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -49,7 +53,24 @@ const routes: Routes = [
   {
     path: 'medical',
     component: MedicalComponent
+  },
+  {
+    path: 'concert',
+    component: ConcertComponent
+  },
+  {
+    path: 'vesak',
+    component: VesakComponent
+  },
+  {
+    path: 'trip',
+    component: TripComponent
+  },
+  {
+    path: 'meet',
+    component: MeetupComponent
   }
+
   //end of the events
   // { path: '', redirectTo: 'Pages', pathMatch: 'full' },
   // { path: '**', redirectTo: 'Pages' }
