@@ -10,9 +10,11 @@ import { ForgotPasswordComponent } from './components/forgot-password/forgot-pas
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { MedicalComponent } from './components/events/annual/medical/medical.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
+
   {
     path: 'dashboard',
     component: DashboardComponent
@@ -41,7 +43,14 @@ const routes: Routes = [
     path: 'verify-email-address',
     component: VerifyEmailComponent
     //canActivate: [SecureInnerPagesGuard]
+  },
+
+  //start start for the events
+  {
+    path: 'medical',
+    component: MedicalComponent
   }
+  //end of the events
   // { path: '', redirectTo: 'Pages', pathMatch: 'full' },
   // { path: '**', redirectTo: 'Pages' }
 ];
