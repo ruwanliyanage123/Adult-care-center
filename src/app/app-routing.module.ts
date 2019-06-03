@@ -15,6 +15,11 @@ import { ConcertComponent } from './components/events/annual/concert/concert.com
 import { VesakComponent } from './components/events/annual/vesak/vesak.component';
 import { TripComponent } from './components/events/annual/trip/trip.component';
 import { MeetupComponent } from './components/events/annual/meetup/meetup.component';
+import { BathComponent } from './components/events/daily/bath/bath.component';
+import { TreatComponent } from './components/events/daily/treat/treat.component';
+import { EntertainComponent } from './components/events/daily/entertain/entertain.component';
+import { DonationComponent } from './components/events/daily/donation/donation.component';
+import { OtherComponent } from './components/events/daily/other/other.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -69,6 +74,26 @@ const routes: Routes = [
   {
     path: 'meet',
     component: MeetupComponent
+  },
+  {
+    path: 'bath',
+    component: BathComponent
+  },
+  {
+    path: 'treat',
+    component: TreatComponent
+  },
+  {
+    path: 'enter',
+    component: EntertainComponent
+  },
+  {
+    path: 'donate',
+    component: DonationComponent
+  },
+  {
+    path: 'other',
+    component: OtherComponent
   }
 
   //end of the events
