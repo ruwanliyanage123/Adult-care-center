@@ -1,0 +1,14 @@
+.row {
+  margin-left: 200px;
+  margin-top: 120px;
+}
+
+.col1 {
+  width: 330px;
+  margin-left: 100px;
+}
+
+.col2 {
+  width: 330px;
+  margin-left: 100px;
+}
