@@ -31,6 +31,7 @@ import { MedicalComponent } from './components/events/annual/medical/medical.com
 import { ConcertComponent } from './components/events/annual/concert/concert.component';
 import { VesakComponent } from './components/events/annual/vesak/vesak.component';
 import { TripComponent } from './components/events/annual/trip/trip.component';
+import { MeetupComponent } from './components/events/annual/meetup/meetup.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { TripComponent } from './components/events/annual/trip/trip.component';
     MedicalComponent,
     ConcertComponent,
     VesakComponent,
-    TripComponent
+    TripComponent,
+    MeetupComponent
   ],
   imports: [
     BrowserModule,
