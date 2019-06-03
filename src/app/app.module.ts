@@ -30,6 +30,7 @@ import { AuthService } from './shared/services/auth.service';
 import { MedicalComponent } from './components/events/annual/medical/medical.component';
 import { ConcertComponent } from './components/events/annual/concert/concert.component';
 import { VesakComponent } from './components/events/annual/vesak/vesak.component';
+import { TripComponent } from './components/events/annual/trip/trip.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { VesakComponent } from './components/events/annual/vesak/vesak.component
     DashboardComponent,
     MedicalComponent,
     ConcertComponent,
-    VesakComponent
+    VesakComponent,
+    TripComponent
   ],
   imports: [
     BrowserModule,
