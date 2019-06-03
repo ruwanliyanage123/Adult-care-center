@@ -20,9 +20,10 @@ import {
 
 import { MatButtonModule } from '@angular/material';
 import { HomeComponent } from './home/home.component';
+import { SignInComponent } from './components/sign-in/sign-in.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent],
+  declarations: [AppComponent, HomeComponent, SignInComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
