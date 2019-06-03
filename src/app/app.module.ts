@@ -37,6 +37,7 @@ import { TreatComponent } from './components/events/daily/treat/treat.component'
 import { EntertainComponent } from './components/events/daily/entertain/entertain.component';
 import { DonationComponent } from './components/events/daily/donation/donation.component';
 import { OtherComponent } from './components/events/daily/other/other.component';
+import { HeaderComponent } from './components/events/share/header/header.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { OtherComponent } from './components/events/daily/other/other.component'
     TreatComponent,
     EntertainComponent,
     DonationComponent,
-    OtherComponent
+    OtherComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
