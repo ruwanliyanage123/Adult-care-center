@@ -5,15 +5,14 @@
 export const environment = {
   production: false,
 
-  firebaseConfig:{
-    apiKey: "AIzaSyAWc6MjyuIhmZCAt4Cdo15nQ9sIqO_H-7E",
-    authDomain: "adult-care-center.firebaseapp.com",
-    databaseURL: "https://adult-care-center.firebaseio.com",
-    projectId: "adult-care-center",
-    storageBucket: "adult-care-center.appspot.com",
-    messagingSenderId: "237507525055"
+  firebaseConfig: {
+    apiKey: 'AIzaSyDKyE2LcMbvrvy7CRInDPjAZLjx2xU--T4',
+    authDomain: 'hairforyou-2b7f8.firebaseapp.com',
+    databaseURL: 'https://hairforyou-2b7f8.firebaseio.com',
+    projectId: 'hairforyou-2b7f8',
+    storageBucket: 'hairforyou-2b7f8.appspot.com',
+    messagingSenderId: '983377625388'
   }
-
 };
 
 /*
