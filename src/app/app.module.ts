@@ -34,6 +34,7 @@ import { TripComponent } from './components/events/annual/trip/trip.component';
 import { MeetupComponent } from './components/events/annual/meetup/meetup.component';
 import { BathComponent } from './components/events/daily/bath/bath.component';
 import { TreatComponent } from './components/events/daily/treat/treat.component';
+import { EntertainComponent } from './components/events/daily/entertain/entertain.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { TreatComponent } from './components/events/daily/treat/treat.component'
     TripComponent,
     MeetupComponent,
     BathComponent,
-    TreatComponent
+    TreatComponent,
+    EntertainComponent
   ],
   imports: [
     BrowserModule,
