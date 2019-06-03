@@ -35,6 +35,7 @@ import { MeetupComponent } from './components/events/annual/meetup/meetup.compon
 import { BathComponent } from './components/events/daily/bath/bath.component';
 import { TreatComponent } from './components/events/daily/treat/treat.component';
 import { EntertainComponent } from './components/events/daily/entertain/entertain.component';
+import { DonationComponent } from './components/events/daily/donation/donation.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { EntertainComponent } from './components/events/daily/entertain/entertai
     MeetupComponent,
     BathComponent,
     TreatComponent,
-    EntertainComponent
+    EntertainComponent,
+    DonationComponent
   ],
   imports: [
     BrowserModule,
