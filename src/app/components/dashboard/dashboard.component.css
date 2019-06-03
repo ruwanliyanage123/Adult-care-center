@@ -6,6 +6,20 @@
 }
 
 .row {
-  margin-top: 500px;
-  margin-left: 300px;
+  margin-top: 20px;
+  margin-left: 350px;
+}
+
+.headline {
+  margin-left: 100px;
+}
+.row1 {
+  margin-top: 150px;
+  margin-left: 400px;
+  width: 600px;
+}
+
+.button {
+  margin-left: 50px;
+  margin-top: 5px;
 }
