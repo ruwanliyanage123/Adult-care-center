@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { AuthModule } from './core/auth/auth.module';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
-import { AngularFireAuthModule } from '@angular/fire/auth';
+import { AngularFireAuthModule, AngularFireAuth } from '@angular/fire/auth';
 import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -24,6 +24,7 @@ import { SignInComponent } from './components/sign-in/sign-in.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { ForgotPasswordComponent } from './components/forgot-password/forgot-password.component';
 import { VerifyEmailComponent } from './components/verify-email/verify-email.component';
+import { AuthService } from './core/auth/auth.service';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, SignInComponent, SignUpComponent, ForgotPasswordComponent, VerifyEmailComponent],
@@ -42,7 +43,8 @@ import { VerifyEmailComponent } from './components/verify-email/verify-email.com
     ButtonsModule,
     MatButtonModule
   ],
-  providers: [],
+  providers: [AuthService,
+    AngularFireAuth,],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
