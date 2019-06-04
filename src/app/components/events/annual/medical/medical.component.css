@@ -12,3 +12,14 @@
   width: 330px;
   margin-left: 100px;
 }
+
+.topic_card {
+  margin-left: 180px;
+  margin-top: 10px;
+  width: 1000px;
+  height: 300px;
+}
+
+.topic {
+  margin-left: 380px;
+}
